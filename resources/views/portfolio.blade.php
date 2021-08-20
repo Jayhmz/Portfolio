@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-  <link rel="stylesheet" href="{{asset('css/style.css')}}">
+  <link rel="stylesheet" href="{{asset('public/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{asset('public/css/style.css')}}">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
   <title>James Damilare || resume page</title>
@@ -40,7 +40,7 @@
       <div class="container px-3">
         <div class="row">
           <div class="col-lg-6 mb-5">
-            <img class="img-fluid" src="{{asset('images/landing.svg')}}" alt="hello-image">
+            <img class="img-fluid" src="{{asset('public/images/landing.svg')}}" alt="hello-image">
           </div>
           <div class="col-lg-6 p-5">
             <span class="greet mt-2">Hello!</span>
@@ -71,7 +71,7 @@
     <div class="row">
       <div class="col-lg-6 padding">
         <div class="img-holder">
-          <img class="img-fluid" src="{{asset('images/james.jpg')}}" alt="James Damilare">
+          <img class="img-fluid" src="{{asset('public/images/james.jpg')}}" alt="James Damilare">
         </div>
       </div>
       <div class="col-lg-6 padding">
@@ -118,7 +118,7 @@
           <div class="col-md-3 col-sm-6 col-lg-3 padding">
             <div class="card">
               <div class="card-body padding">
-                <img class="img-fluid" src="{{asset('images/webdev.png')}}" alt="web-design">
+                <img class="img-fluid" src="{{asset('public/images/webdev.png')}}" alt="web-design">
               </div>
               <div class="card-footer">
                 <h6 class="text-capitalize text-center">web design & development</h6>
@@ -128,7 +128,7 @@
           <div class="col-md-3 col-sm-6 col-lg-3 padding">
             <div class="card">
               <div class="card-body padding">
-                <img class="img-fluid" src="{{asset('images/algorithm.png')}}" alt="algorithm-design">
+                <img class="img-fluid" src="{{asset('public/images/algorithm.png')}}" alt="algorithm-design">
               </div>
               <div class="card-footer">
                 <h6 class="text-capitalize text-center">algorithm design</h6>
@@ -138,7 +138,7 @@
           <div class="col-md-3 col-sm-6 col-lg-3 padding">
             <div class="card">
               <div class="card-body padding">
-                <img class="img-fluid" src="{{asset('images/mobile.jpg')}}" alt="web-design">
+                <img class="img-fluid" src="{{asset('public/images/mobile.jpg')}}" alt="web-design">
               </div>
               <div class="card-footer">
                 <h6 class="text-capitalize text-center">mobile app development</h4>
@@ -148,7 +148,7 @@
           <div class="col-md-3 col-sm-6 col-lg-3 padding">
             <div class="card">
               <div class="card-body padding">
-                <img class="img-fluid" src="{{asset('images/database.jpg')}}" alt="web-design">
+                <img class="img-fluid" src="{{asset('public/images/database.jpg')}}" alt="web-design">
               </div>
               <div class="card-footer">
                 <h6 class="text-capitalize text-center">Database Administration</h4>
@@ -256,7 +256,7 @@
     <div class="row px-5 text-center ">
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 pt-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 pt-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -265,7 +265,7 @@
       </div>
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -274,7 +274,7 @@
       </div>
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -283,7 +283,7 @@
       </div>
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -292,7 +292,7 @@
       </div>
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -301,7 +301,7 @@
       </div>
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -310,7 +310,7 @@
       </div>
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -319,7 +319,7 @@
       </div>
       <div class="col-lg-4">
         <div class="img-container">
-          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('images/hng.png')}}" alt="hng-logo">
+          <img class="img-fluid block text-center py-5 px-2 " src="{{asset('public/images/hng.png')}}" alt="hng-logo">
           <div class="over pt-5">
             <p class="align-middle text-center my-auto ">I undergone training at HNG. <br> <span style="color: orange;">2021</span> </p>
             <span><a style="color: orange; " href="#">check it out here...</a></span>
@@ -416,8 +416,8 @@
 
 
 
-  <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
-  <script src="{{asset('js/bootstrap.min.js')}}"> </script>
+  <script src="{{asset('public/js/jquery-3.3.1.min.js')}}"></script>
+  <script src="{{asset('public/js/bootstrap.min.js')}}"> </script>
 </body>
 
 </html>
